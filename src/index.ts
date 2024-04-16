@@ -162,7 +162,7 @@ const replaceAlias = (text: string, outFile: string): string =>
 const files = globSync(`${outPath}/**/*.{js,jsx,ts,tsx}`, {
   dot: true,
   noDir: true,
-} as any).map((x) => resolve(x));
+} as any).map((x) => resolve(x as unknown as string));
 
 let changedFileCount = 0;
 
