@@ -48,12 +48,16 @@
     "ts-jest": "^24.0.2",
     "tslint": "^5.16.0",
     "tslint-config-airbnb": "^5.11.1",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.4.5"
+    "tslint-config-prettier": "^1.18.0"
   },
   "dependencies": {
     "commander": "^2.20.0",
-    "globby": "^14.0.1"
+    "fast-glob": "^3.3.2",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+
   },
   "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
